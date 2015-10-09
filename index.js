@@ -7,6 +7,7 @@ var http = require('http')
 var serveStatic = require('serve-static')
 var serveIndex = require('serve-index')
 var morgan = require('morgan') // logger
+var path = require('path')
 
 var app = connect()
 
