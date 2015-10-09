@@ -1,0 +1,22 @@
+{
+  "name": "simple-file-server",
+  "version": "1.0.0",
+  "description": "simple file server done using connect middleware",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "(none)"
+  },
+  "author": "Nieralyte",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.4.0",
+    "morgan": "^1.6.1",
+    "serve-index": "^1.7.2",
+    "serve-static": "^1.10.0"
+  },
+  "bin": {
+    "simple-file-server": "index.js"
+  },
+  "preferGlobal": true
+}
