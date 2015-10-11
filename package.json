@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "(none)"
+    "url": "https://github.com/Nieralyte/simple-file-server.git"
   },
   "author": "Nieralyte",
   "license": "ISC",
