@@ -1,14 +1,6 @@
 {
   "name": "simple-file-server",
   "version": "1.0.0",
-  "description": "simple file server done using connect middleware",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Nieralyte/simple-file-server.git"
-  },
-  "author": "Nieralyte",
-  "license": "ISC",
   "dependencies": {
     "connect": "^3.4.0",
     "morgan": "^1.6.1",

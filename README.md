@@ -1,24 +1,18 @@
 # simple-file-server
-simple file server done using connect middleware
 
-### usage
+A simple file server done using connect middleware
 
-install globally with:
+### Usage
 
-```
-> npm install https://github.com/Nieralyte/simple-file-server --global
-```
-
-then in command line type:
+Install globally with:
 
 ```
-> cd some/target/folder && simple-file-server
+npm install https://github.com/ArturBaybulatov/simple-file-server --global
 ```
 
-a simple web server will start at `localhost:80` serving files from `some/target/folder`
-
-a custom port can be specified via `PORT` environment variable:
+Then `cd` into a directory and run the command:
 
 ```
-> set PORT=8080 && simple-file-server
+cd some/target/folder && \
+simple-file-server # or: PORT=1234 && simple-file-server
 ```
